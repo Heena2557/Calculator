@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(300deg,rgb(255, 0, 123),rgb(255, 206, 243));
+    height: 100vh;
+    overflow: hidden;
+}
+.heading{
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 3.5rem;
+    color: rgb(89, 0, 105);
+}
+.calc{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 4px;
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+}
+#result{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 10px;
+}
+.btn-warning, .btn-danger
+{
+    grid-column-start: 1;
+    grid-column-end: 4;   
+}
+.container{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
